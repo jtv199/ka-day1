@@ -1,0 +1,12 @@
+[project]
+name = "ka-day1"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []  # inspect_ai and inspect_evals come from the run's own pins
+
+[project.entry-points.inspect_ai]
+ka_day1 = "ka_day1"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
